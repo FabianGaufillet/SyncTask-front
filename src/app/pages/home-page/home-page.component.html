@@ -1,0 +1,235 @@
+<div class="min-h-screen bg-[#f7f1e6] text-slate-900 relative overflow-hidden">
+  <div
+    class="pointer-events-none absolute -top-40 left-1/2 h-128 w-lg -translate-x-1/2 rounded-full bg-[radial-gradient(circle_at_center,rgba(250,204,21,0.35),transparent_70%)]"
+  ></div>
+  <div
+    class="pointer-events-none absolute -bottom-32 -right-24 h-112 w-md rounded-full bg-[radial-gradient(circle_at_center,rgba(20,184,166,0.28),transparent_68%)]"
+  ></div>
+
+  <header class="relative z-10 px-6 pt-8 md:px-16">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-2xl text-white grid place-items-center text-lg font-semibold">
+          <img alt="SyncTask" class="h-8 w-8 object-contain" height="1024" ngSrc="/logo_synctask.png" width="1024"/>
+        </div>
+        <div>
+          <p class="text-sm uppercase tracking-[0.28em] text-slate-600">SyncTask</p>
+          <p class="text-xs text-slate-500">Projet collaboratif en temps réel</p>
+        </div>
+      </div>
+      <nav class="hidden items-center gap-8 text-sm md:flex">
+        <a class="hover:text-slate-700 transition" href="#focus">Fonctionnalités</a>
+        <a class="hover:text-slate-700 transition" href="#workflow">Workflow</a>
+        <a class="hover:text-slate-700 transition" href="#signal">Impact</a>
+        <a
+          class="rounded-full border border-slate-900 px-4 py-2 text-sm font-medium hover:bg-slate-900 hover:text-white transition"
+          routerLink="/inscription"
+        >
+          Inscription
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="relative z-10 px-6 pb-20 pt-14 md:px-16">
+    <section class="grid gap-10 md:grid-cols-[1.15fr_0.85fr] md:items-center">
+      <div>
+        <p class="text-sm uppercase tracking-[0.32em] text-emerald-700">Collaboration vivante</p>
+        <h1 class="mt-4 text-4xl font-semibold leading-tight md:text-6xl">
+          Donnez du rythme à vos projets avec une
+          <span class="font-(--font-serif) italic text-emerald-700">vision partagée</span>
+          en temps réel.
+        </h1>
+        <p class="mt-6 text-base text-slate-700 md:text-lg">
+          SyncTask aligne vos équipes, automatise les dépendances critiques et transforme les idees en livrables
+          visibles. Tout reste synchronisé, même quand les priorités bougent.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center gap-4">
+          <a
+            class="rounded-full bg-slate-900 px-6 py-3 text-white text-sm font-medium shadow-lg shadow-slate-900/20 hover:-translate-y-0.5 transition"
+            routerLink="/inscription"
+          >
+            Créer mon espace
+          </a>
+          <button
+            class="rounded-full border border-slate-900 px-6 py-3 text-sm font-medium hover:bg-slate-900 hover:text-white transition"
+            type="button"
+          >
+            Demander une demo
+          </button>
+          <div class="flex items-center gap-3 text-sm text-slate-600">
+            <span class="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+            2 400 équipes actives aujourd'hui
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div
+          class="rounded-[2.25rem] border border-slate-900/10 bg-white/70 p-6 shadow-2xl shadow-slate-900/10 backdrop-blur">
+          <div class="flex items-center justify-between">
+            <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Tableau temps réel</p>
+            <span class="rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
+              Sync 99%
+            </span>
+          </div>
+          <div class="mt-6 grid gap-4">
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+              <div class="flex items-center justify-between">
+                <p class="text-sm font-semibold">Sprint Atlas</p>
+                <span class="text-xs text-slate-500">Aujourd'hui</span>
+              </div>
+              <div class="mt-3 space-y-2 text-xs text-slate-600">
+                <div class="flex items-center justify-between">
+                  <span>Intégration CRM</span>
+                  <span class="rounded-full bg-amber-100 px-2 py-0.5 text-amber-700">En cours</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span>UX Mobile</span>
+                  <span class="rounded-full bg-emerald-100 px-2 py-0.5 text-emerald-700">Valide</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span>Analyse risque</span>
+                  <span class="rounded-full bg-slate-200 px-2 py-0.5 text-slate-600">Planifié</span>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+              <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Alertes intelligentes</p>
+              <div class="mt-4 grid gap-3 text-sm text-slate-700">
+                <div class="rounded-xl bg-emerald-50 px-3 py-2">Blocage détecté sur "API Facturation"</div>
+                <div class="rounded-xl bg-amber-50 px-3 py-2">Decision a valider: budget T3</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute -bottom-6 -left-6 hidden rounded-3xl border border-slate-900/10 bg-white px-5 py-4 shadow-lg md:block">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Signal d'équipe</p>
+          <p class="mt-2 text-2xl font-semibold text-slate-900">+38% d'impact</p>
+          <p class="text-xs text-slate-500">délais mieux anticipés</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-20 grid gap-8 md:grid-cols-3" id="focus">
+      <div class="rounded-3xl border border-slate-900/10 bg-white/70 p-6 shadow-lg shadow-slate-900/5">
+        <p class="text-xs uppercase tracking-[0.24em] text-slate-500">Cadence</p>
+        <h3 class="mt-4 text-xl font-semibold">Rythmez les priorités</h3>
+        <p class="mt-3 text-sm text-slate-600">
+          Visualisez les dépendances en direct et redistribuez l'effort sans casser les deadlines.
+        </p>
+      </div>
+      <div class="rounded-3xl border border-slate-900/10 bg-white/70 p-6 shadow-lg shadow-slate-900/5">
+        <p class="text-xs uppercase tracking-[0.24em] text-slate-500">Clarté</p>
+        <h3 class="mt-4 text-xl font-semibold">Une source unique</h3>
+        <p class="mt-3 text-sm text-slate-600">
+          Centralisez les decisions, documents et validations dans un espace partagé et lisible.
+        </p>
+      </div>
+      <div class="rounded-3xl border border-slate-900/10 bg-white/70 p-6 shadow-lg shadow-slate-900/5">
+        <p class="text-xs uppercase tracking-[0.24em] text-slate-500">Énergie</p>
+        <h3 class="mt-4 text-xl font-semibold">Faites monter l'engagement</h3>
+        <p class="mt-3 text-sm text-slate-600">
+          Des rituel d'équipe intégrables, pour garder les contributeurs connectés au même cap.
+        </p>
+      </div>
+    </section>
+
+    <section class="mt-20 rounded-[2.5rem] border border-slate-900/10 bg-slate-900 px-8 py-12 text-white" id="workflow">
+      <div class="grid gap-8 md:grid-cols-[1.2fr_0.8fr] md:items-center">
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-emerald-300">Workflow orchestration</p>
+          <h2 class="mt-4 text-3xl font-semibold md:text-4xl">
+            Suivez la vie d'un projet comme une
+            <span class="font-(--font-serif) italic text-amber-200">partition</span>.
+          </h2>
+          <p class="mt-4 text-sm text-slate-300">
+            De l'idéation a la livraison, chaque action déclenche les prochaines et nourrit le tableau de bord
+            exécutif.
+          </p>
+        </div>
+        <div class="grid gap-4">
+          <div class="rounded-2xl border border-white/20 bg-white/10 p-4 text-sm">
+            <p class="text-emerald-200">Pulse d'équipe</p>
+            <p class="mt-2 text-slate-200">Sondages courts, feedback instantané, humeur collective.</p>
+          </div>
+          <div class="rounded-2xl border border-white/20 bg-white/10 p-4 text-sm">
+            <p class="text-amber-200">Automations</p>
+            <p class="mt-2 text-slate-200">Déclenchez des séquences selon les décisions prises.</p>
+          </div>
+          <div class="rounded-2xl border border-white/20 bg-white/10 p-4 text-sm">
+            <p class="text-sky-200">Livrables vivants</p>
+            <p class="mt-2 text-slate-200">Chaque fichier, commentaire et jalon s'aligne instantanément.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-20 grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-center" id="signal">
+      <div class="rounded-[2.25rem] border border-slate-900/10 bg-white/80 p-8 shadow-xl">
+        <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Pilotage</p>
+        <h3 class="mt-4 text-2xl font-semibold">Des indicateurs qui parlent</h3>
+        <p class="mt-3 text-sm text-slate-600">
+          Mesurez le flux de travail, la charge perçue et la qualité des livrables a chaque étape.
+        </p>
+        <div class="mt-6 grid gap-4 text-sm text-slate-700">
+          <div class="flex items-center justify-between">
+            <span>Cycle moyen</span>
+            <span class="font-semibold text-slate-900">-21%</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span>Validation client</span>
+            <span class="font-semibold text-slate-900">+32%</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span>Risque anticipé</span>
+            <span class="font-semibold text-slate-900">+18 pts</span>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-4 text-sm text-slate-700">
+        <p class="text-xs uppercase tracking-[0.24em] text-slate-500">Équipes qui avancent</p>
+        <h3 class="text-3xl font-semibold">Conçu pour les équipes qui veulent aller vite sans se disperser.</h3>
+        <p>
+          SyncTask connecte produit, design et delivery sur la meme ligne de temps. Les responsables voient les
+          priorités, les équipes exécutent, et la vision reste intacte.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <span class="rounded-full border border-slate-900/10 bg-white/70 px-4 py-2 text-xs">Roadmaps temps réel</span>
+          <span class="rounded-full border border-slate-900/10 bg-white/70 px-4 py-2 text-xs">OKR synchronisés</span>
+          <span class="rounded-full border border-slate-900/10 bg-white/70 px-4 py-2 text-xs">Validation continue</span>
+          <span class="rounded-full border border-slate-900/10 bg-white/70 px-4 py-2 text-xs">Slack + Jira ready</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-20 rounded-[2.5rem] border border-slate-900/10 bg-emerald-700 px-8 py-12 text-white">
+      <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-emerald-200">Prêt a lancer votre espace</p>
+          <h3 class="mt-4 text-3xl font-semibold md:text-4xl">
+            Ouvrez votre hub collaboratif en moins de 3 minutes.
+          </h3>
+        </div>
+        <a
+          class="inline-flex items-center justify-center rounded-full bg-white px-7 py-3 text-sm font-semibold text-emerald-800 shadow-xl shadow-emerald-900/30 hover:-translate-y-0.5 transition"
+          routerLink="/inscription"
+        >
+          Démarrer maintenant
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-900/10 px-6 py-8 text-xs text-slate-500 md:px-16">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <p>SyncTask 2026. Collaboration en temps réel.</p>
+      <div class="flex flex-wrap gap-6 text-xs">
+        <a class="hover:text-slate-700 transition" href="#">Confidentialité</a>
+        <a class="hover:text-slate-700 transition" href="#">Securite</a>
+        <a class="hover:text-slate-700 transition" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+</div>
