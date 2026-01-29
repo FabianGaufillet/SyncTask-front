@@ -3,6 +3,7 @@ import { Routes } from '@angular/router';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 export const routes: Routes = [
   {
@@ -19,6 +20,11 @@ export const routes: Routes = [
     path: 'connexion',
     component: LoginPageComponent,
     title: 'Connexion - SyncTask'
+  },
+  {
+    path: 'contact',
+    component: ContactPageComponent,
+    title: 'Contact - SyncTask'
   },
   {
     path: '**',
