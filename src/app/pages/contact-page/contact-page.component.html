@@ -1,0 +1,141 @@
+<div class="min-h-screen bg-[#f7f1e6] text-slate-900 relative overflow-hidden">
+  <div
+    class="pointer-events-none absolute -top-24 -left-20 h-112 w-112 rounded-full bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.28),transparent_70%)]"
+  ></div>
+  <div
+    class="pointer-events-none absolute -bottom-32 -right-24 h-120 w-120 rounded-full bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.25),transparent_68%)]"
+  ></div>
+
+  <main class="relative z-10 mx-auto flex min-h-screen max-w-6xl items-center px-6 py-16 md:px-12">
+    <div class="grid w-full gap-10 md:grid-cols-[1.05fr_0.95fr] md:items-center">
+      <section class="space-y-6">
+        <a class="inline-flex items-center gap-3 text-sm text-slate-600 hover:text-slate-900" routerLink="/">
+          <span class="grid h-9 w-9 place-items-center rounded-2xl bg-slate-900 text-white">ST</span>
+          Retour à l'accueil
+        </a>
+        <p class="text-xs uppercase tracking-[0.32em] text-emerald-700">Contact</p>
+        <h1 class="text-4xl font-semibold leading-tight md:text-5xl">
+          Construisons un espace qui suit vraiment le rythme de votre équipe.
+        </h1>
+        <p class="text-base text-slate-700">
+          Parlez-nous de vos objectifs : intégrations, volume d'équipes, contraintes de delivery. On vous répond avec
+          une recommandation concrète et une démo ciblée.
+        </p>
+
+        <div class="grid gap-4 rounded-3xl border border-slate-900/10 bg-white/80 p-6 shadow-lg">
+          <div class="flex items-start gap-3">
+            <div class="h-10 w-10 rounded-2xl bg-emerald-100 text-emerald-700 grid place-items-center">01</div>
+            <div>
+              <p class="text-sm font-semibold">Réponse en 24h</p>
+              <p class="text-xs text-slate-600">Un expert SyncTask dédié à votre secteur.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="h-10 w-10 rounded-2xl bg-amber-100 text-amber-700 grid place-items-center">02</div>
+            <div>
+              <p class="text-sm font-semibold">Scénario sur mesure</p>
+              <p class="text-xs text-slate-600">Démo basée sur vos flux et vos rituels.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="h-10 w-10 rounded-2xl bg-sky-100 text-sky-700 grid place-items-center">03</div>
+            <div>
+              <p class="text-sm font-semibold">Plan d'adoption</p>
+              <p class="text-xs text-slate-600">Onboarding, change management, gouvernance.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-3 text-xs text-slate-600">
+          <span class="rounded-full border border-slate-900/10 bg-white/70 px-4 py-2">support@synctask.io</span>
+          <span class="rounded-full border border-slate-900/10 bg-white/70 px-4 py-2">+33 1 84 00 11 22</span>
+          <span class="rounded-full border border-slate-900/10 bg-white/70 px-4 py-2">Lun-Ven 9h-18h</span>
+        </div>
+      </section>
+
+      <section class="rounded-[2.5rem] border border-slate-900/10 bg-white/90 p-8 shadow-2xl shadow-slate-900/10">
+        <div class="flex items-start justify-between">
+          <div>
+            <p class="text-xs uppercase tracking-[0.3em] text-slate-500">Nous écrire</p>
+            <h2 class="mt-3 text-2xl font-semibold">Parlez-nous de votre contexte</h2>
+          </div>
+          <span class="rounded-full border border-emerald-600/30 bg-emerald-50 px-3 py-1 text-xs text-emerald-700">
+            Support prioritaire
+          </span>
+        </div>
+
+        <form class="mt-8 grid gap-5 text-sm">
+          <div class="grid gap-2">
+            <label class="text-xs uppercase tracking-[0.2em] text-slate-500" for="fullname">Nom complet</label>
+            <input
+              class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200"
+              id="fullname"
+              name="fullname"
+              placeholder="Camille Dupont"
+              type="text"
+            />
+          </div>
+          <div class="grid gap-2">
+            <label class="text-xs uppercase tracking-[0.2em] text-slate-500" for="email">Email pro</label>
+            <input
+              class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200"
+              id="email"
+              name="email"
+              placeholder="camille@studio.fr"
+              type="email"
+            />
+          </div>
+          <div class="grid gap-2">
+            <label class="text-xs uppercase tracking-[0.2em] text-slate-500" for="company">Équipe / entreprise</label>
+            <input
+              class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200"
+              id="company"
+              name="company"
+              placeholder="Studio Nord"
+              type="text"
+            />
+          </div>
+          <div class="grid gap-2">
+            <label class="text-xs uppercase tracking-[0.2em] text-slate-500" for="subject">Sujet</label>
+            <select
+              class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200"
+              id="subject"
+              name="subject"
+            >
+              <option>Demande de démo</option>
+              <option>Intégrations et API</option>
+              <option>Accompagnement équipe</option>
+              <option>Autre sujet</option>
+            </select>
+          </div>
+          <div class="grid gap-2">
+            <label class="text-xs uppercase tracking-[0.2em] text-slate-500" for="message">Message</label>
+            <textarea
+              class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200"
+              id="message"
+              name="message"
+              placeholder="Décrivez vos objectifs ou vos questions."
+              rows="4"
+            ></textarea>
+          </div>
+          <label class="flex items-start gap-3 text-xs text-slate-600">
+            <input class="mt-1 h-4 w-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-300" type="checkbox"/>
+            J'accepte d'être recontacté(e) par l'équipe SyncTask.
+          </label>
+          <button
+            class="mt-2 rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 hover:-translate-y-0.5 transition"
+            type="submit"
+          >
+            Envoyer la demande
+          </button>
+          <p class="text-xs text-slate-500">
+            Vous préférez un échange rapide ? Écrivez à
+            <a class="font-semibold text-emerald-700 hover:text-emerald-600" href="mailto:bonjour@synctask.io">
+              bonjour@synctask.io
+            </a>.
+          </p>
+        </form>
+      </section>
+    </div>
+  </main>
+</div>
